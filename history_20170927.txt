@@ -1,30 +1,3 @@
- 1024  ssh -X x161REB125@213.175.92.22
- 1025  matlab
- 1026  ssh -X xmate@213.175.92.22
- 1027  firefox&
- 1028  groups
- 1029  firefox
- 1030  firofox&
- 1031  firefox&
- 1032  ssh -X x141REB129@175.92.22
- 1033  ssh -X x141REB129@175.92.22
- 1034  ssh -X x141REB129@175.95.22
- 1035  ssh -X x141REB129@175.92.22
- 1036  ssh - X x141REB129@175.92.22
- 1037  ssh -X x141REB129@175.92.22
- 1038  111
- 1039  ssh -X x141REB129@175.92.22
- 1040  ssh -X x141REB129@213.175.92.22
- 1041  rand
- 1042  random
- 1043  firefox
- 1044  ssh -X x131RMC258@213.175.92.22
- 1045  ssh -X x161REB114@213.175.92.22
- 1046  exit
- 1047  firefox
- 1048  ssh -X x161REB114@213.175.92.22
- 1049  exit
- 1050  ssh -X x161REB125@213.175.92.22
  1051  ssh -X x161REB195@213.175.92.22
  1052  ssh -X x161REB195@213.175.92.22
  1053  firefox
@@ -998,3 +971,30 @@
  2021  ls -l
  2022  nano git-upload
  2023  history > history_20170927.txt
+ 2024  git-upload
+ 2025  pwd
+ 2026  PATH=$PATH:/home/user/DM1
+ 2027  echo $PATH
+ 2028  git-upload
+ 2029  pwd
+ 2030  nano shell_programming.sh
+ 2031  echo $0
+ 2032  echo$$
+ 2033  echo $$
+ 2034  echo $!
+ 2035  nano shell_programming.sh
+ 2036  shell_programming.sh
+ 2037  cat shell_programming.sh
+ 2038  shell_programming.sh arg1
+ 2039  shell_programming.sh arg1 arg2
+ 2040  shell_programming.sh arg1 arg2 arg3
+ 2041  nano shell_programming.sh 
+ 2042  shell_programming.sh 
+ 2043  nano shell_programming.sh 
+ 2044  shell_programming.sh 
+ 2045  nano shell_programming.sh 
+ 2046  shell_programming.sh arg1 arg2
+ 2047  nano shell_programming.sh
+ 2048  shell_programming.sh arg1 arg2
+ 2049  nano git-upload
+ 2050  history > history_20170927.txt
