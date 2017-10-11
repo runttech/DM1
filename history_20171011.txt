@@ -1,34 +1,3 @@
- 1013  git remote add orgin https://github.com/runttech/DM1.git
- 1014  git push origin master
- 1015  git push orgin master
- 1016  ls -la
- 1017  rm -rf .git
- 1018  ls -la
- 1019  git init
- 1020  git add
- 1021  git add .
- 1022  git config --global user.name kreaux77@gmail.com
- 1023  git remote add orgin https://github.com/runttech/DM1.git
- 1024  git push orgin master
- 1025  ls -la
- 1026  chromium-browser 
- 1027  uname
- 1028  -r
- 1029  lsb_release
- 1030  cat
- 1031  cd
- 1032  uname -r
- 1033  ls
- 1034  cat /etc/*-release
- 1035  cd downloads
- 1036  user
- 1037  cd user
- 1038  cd zmeja
- 1039  cd documents
- 1040  cat
- 1041  username
- 1042  whoami
- 1043  pwd
  1044  cd..
  1045  cd ..
  1046  cd downloads
@@ -982,19 +951,50 @@
  1994  ssh x171REB159@213.175.92.22
  1995  git clone https:/github.com/runttech/DM1
  1996  rm -r DM1
- 1997  git clone https://github.com/runttech/DM1
- 1998  ls -la
- 1999  cd DM1
- 2000  ls -la
+ 1997  cmd
+ 1998  cmd :>./script.sh 5 3
+ 1999  nano shell-test.sh
+ 2000  ./shell-test.sh
  2001  nano shell-test.sh
- 2002  nanos shell-test.sh
- 2003  nano shell-test.sh
- 2004  ./shell-test.sh
- 2005  nano shell-test.sh
- 2006  cat shell-test.sh
- 2007  bash shell-test.sh
+ 2002  ./shell-test.sh
+ 2003  nano shell-test.shj
+ 2004  nano shell-test.sh
+ 2005  ./shell-test.sh 5 3
+ 2006  nano shell-test.sh
+ 2007  ./shell-test.sh 5 3
  2008  nano shell-test.sh
- 2009  bash shell-test.sh
- 2010  nano git upload
- 2011  nano git-upload
- 2012  history > history_20171011.txt
+ 2009  ./shell-test.sh 5 3
+ 2010  nano shell-test.sh
+ 2011  ./shell-test.sh 10 3
+ 2012  ./shell-test.sh 12 3
+ 2013  nano shell-test.sh
+ 2014  bash shell-test.sh
+ 2015  nano shell-test.sh
+ 2016  ./shell-test.sh
+ 2017  nano shell-test.sh
+ 2018  ./shell-test.sh 1 2
+ 2019  nano shell-test.sh
+ 2020  ./shell-test.sh 1 2
+ 2021  nano shell-test.sh
+ 2022  ./shell-test.sh 5 6
+ 2023  ./shell-test.sh 5 5
+ 2024  ./shell-test.sh 6 5
+ 2025  ./shell-test.sh 5 5
+ 2026  nano shell-test.sh
+ 2027  nano syka
+ 2028  nano shell-test.sh
+ 2029  nano shell-operators.sh
+ 2030  nano shell-test.sh
+ 2031  ./shell-test.sh
+ 2032  nano shell-test.sh
+ 2033  ./shell-test.sh
+ 2034  nano shell-test.sh
+ 2035  ./shell-test.sh
+ 2036  nano shell-test.sh
+ 2037  ./shell-test.sh
+ 2038  ./shell-test.sh 3
+ 2039  ./shell-test.sh 3 3
+ 2040  git-upload
+ 2041  ls
+ 2042  nano git-upload
+ 2043  history > history_20171011.txt
