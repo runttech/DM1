@@ -1,0 +1,22 @@
+Datormacibas majasdarbs
+
+Salvis Timošenko REBC02 ETF
+
+
+.. (iziet no faila, kura atrodieties)
+> (parvieto no faila ‘’A’’ uz failu ‘’B’’)
+¬ (apzime majas apgabalu)
+cat (paradit, izpildit failu)
+cd (mainit direktoriju)
+chmod (mainit atlaujas piekluvi)
+echo (parada zinu uz ekrana)
+exit (iziet no shell)
+help (parada lietojamas komandas)
+ls (informacija par faila saturu)
+ls -l (detalizeta informacija par faila saturu)
+ls -la (detalizeta informacija par faila saturu)
+nano (radit,labot skriptu)
+pwd (drukat darba direktoriju)
+rm -r (dzest failu)
+uname (drukat sistemas informaciju)
+whoiam (atbilde:”Uz jautajumu, kas es esmu?”)
