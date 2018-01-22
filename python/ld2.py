@@ -16,13 +16,13 @@ def my_asin(x):
     S = a
     print "a%d = %.2f S%d = %6.2f"%(k,a,k,S)
     while k < 500:
-	k += 1
-	a = a*((2*k-1)**2*2*k*x*x)/(k**2*4*(2*k+1))
-	S += a
-	if k == 499:
-	    print "a%d = %.2f S%d = %6.2f"%(k,a,k,S)
-	elif k== 500:
-	    print "a%d = %.2f S%d = %6.2f"%(k,a,k,S)
+        k += 1
+        a = a*((2*k-1)**2*2*k*x*x)/(k**2*4*(2*k+1))
+        S += a
+        if k == 499:
+            print "a%d = %.2f S%d = %6.2f"%(k,a,k,S)
+        elif k== 500:
+            print "a%d = %.2f S%d = %6.2f"%(k,a,k,S)
     return S
 
 
