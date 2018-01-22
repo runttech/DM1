@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
-from math import sin
+from math import asin
 import matplotlib.pyplot as plt
 import numpy as np
 
 x = 1. * input("Ievadi argumentu x: ")
 
-y = sin(x)
-print "arcsin(%.2f) = %.2f"%(x,y)
+y = asin(x)
+print "standarta_arcsin(%.2f) = %.2f"%(x,y)
 print " "
 
 def my_asin(x):
@@ -36,9 +36,10 @@ print "  	   /      2	          2*k"
 print " 	  /____ (k)! * (2*k+1) * 2"
 print " 	   k=0"
 
-x = np.arange(0.0, 6.28, 0.01)
-y = np.sin(x)
-yy = my_asin(x, 0)
-plt.plot(x,y)
-plt.plot(x,yy)
-plt.show()
+#x = np.arange(0.0, 6.28, 0.01)
+#y = np.sin(x)
+yy = my_asin(x)
+#plt.plot(x,y)
+#plt.plot(x,yy)
+#plt.show()
+print "mans_arcsin(%.2f) = %.2f"%(x,yy)
