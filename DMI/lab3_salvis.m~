@@ -1,0 +1,27 @@
+%% Trokšņa signāls
+t_noise = 0:0.01:0.5;
+y_noise = rand(size(t_noise))-0.5;
+plot(t_noise,y_noise)
+%% Konstatnes signāls
+t_const = 0.5:0.01:1;
+y_const = zeros(size(t_const))-1;
+plot(t_const,y_const)
+%% Lineāri mainīgs signāls
+t_saw = 1:0.01:2;
+k = (0-(4))/(2-4);
+delay = 1;
+y_saw = k*(t_saw-delay);
+plot(t_saw,y_saw)
+%% nuļļu signāls
+t_zero = 2:0.01:3;
+y_zero = zeros(size(t_zero));
+plot(t_zero,y_zero)
+%% Sinusoīda
+t_sin = 3:0.01:5;
+A0=0; A = 1; T = (3-1)/4; f = 1/T; delay = 1;
+y_sin = A0+A*sin(2*pi*f*(t_sin-delay));
+plot(t_sin,y_sin)
+%% Signālu apvienošaa
+t = [t_noise,t_co,t_noise,t_const,t_saw];
+y = [y_zero,y_sin,y_noise,y_const,y_saw];
+plot(t,y)
