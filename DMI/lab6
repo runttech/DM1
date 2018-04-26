@@ -1,0 +1,154 @@
+format compact
+lab3_demo_fun
+{Not enough input arguments.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab3_demo_fun', '/home/user/DM1/DMI/lab3_demo_fun.m', 5)" style="font-weight:bold">lab3_demo_fun</a> (<a href="matlab: opentoline('/home/user/DM1/DMI/lab3_demo_fun.m',5,0)">line 5</a>)
+t_zero_f = (t>=0)&(t<1); t_zero = t(t_zero_f);} 
+t = 0:0.1:1;
+y = lab3_demo_fun(t);
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a href="matlab:opengl('problems')">here</a>.] 
+edit lab6.m
+lab6
+xvid3a =
+    0.6910
+lab6
+{Error: <a href="matlab: opentoline('/home/user/DM1/DMI/lab6.m',10,27)">File: lab6.m Line: 10 Column: 27
+</a>Unbalanced or unexpected parenthesis or bracket.} 
+lab6
+xvid3b =
+    0.6597
+lab6
+{Error: <a href="matlab: opentoline('/home/user/DM1/DMI/lab6.m',15,31)">File: lab6.m Line: 15 Column: 31
+</a>Unbalanced or unexpected parenthesis or bracket.} 
+lab6
+{Error: <a href="matlab: opentoline('/home/user/DM1/DMI/lab6.m',15,31)">File: lab6.m Line: 15 Column: 31
+</a>Unbalanced or unexpected parenthesis or bracket.} 
+lab6
+{Error: <a href="matlab: opentoline('/home/user/DM1/DMI/lab6.m',15,35)">File: lab6.m Line: 15 Column: 35
+</a>Unbalanced or unexpected parenthesis or bracket.} 
+lab6
+xvid3a =
+    0.6910
+xvid3b =
+    0.6597
+xvid3c =
+    0.6717
+lab6
+xvid3a =
+    0.6910
+xvid3b =
+    0.6597
+xvid3c =
+    0.6717
+{Undefined function or variable 'x'.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab6', '/home/user/DM1/DMI/lab6.m', 18)" style="font-weight:bold">lab6</a> (<a href="matlab: opentoline('/home/user/DM1/DMI/lab6.m',18,0)">line 18</a>)
+xvid4=1/(N-1)*((x(1)+x(end)/2)+sum(sig(t(1:end-1))))} 
+lab6
+xvid3a =
+    0.6910
+xvid3b =
+    0.6597
+xvid3c =
+    0.6717
+{Undefined function or variable 'x'.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab6', '/home/user/DM1/DMI/lab6.m', 18)" style="font-weight:bold">lab6</a> (<a href="matlab: opentoline('/home/user/DM1/DMI/lab6.m',18,0)">line 18</a>)
+xvid4=1/(N-1)*((x(1)+x(end+1)/2)+sum(sig(t(1:end-1))))} 
+lab6
+xvid3a =
+    0.6910
+xvid3b =
+    0.6597
+xvid3c =
+    0.6717
+{Index exceeds matrix dimensions.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab6', '/home/user/DM1/DMI/lab6.m', 18)" style="font-weight:bold">lab6</a> (<a href="matlab: opentoline('/home/user/DM1/DMI/lab6.m',18,0)">line 18</a>)
+xvid4=1/(N-1)*((t(1)+t(end+1)/2)+sum(sig(t(1:end-1))))} 
+lab6
+xvid3a =
+    0.6910
+xvid3b =
+    0.6597
+xvid3c =
+    0.6717
+{Index exceeds matrix dimensions.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab6', '/home/user/DM1/DMI/lab6.m', 18)" style="font-weight:bold">lab6</a> (<a href="matlab: opentoline('/home/user/DM1/DMI/lab6.m',18,0)">line 18</a>)
+xvid4=1/(N-1)*((t(1)+t(end+1)/2)+sum(sig(t(2:end))))} 
+lab6
+xvid3a =
+    0.6910
+xvid3b =
+    0.6597
+xvid3c =
+    0.6717
+xvid4 =
+    0.7410
+lab6
+xvid3a =
+    0.6910
+xvid3b =
+    0.6597
+xvid3c =
+    0.6717
+xvid4 =
+    0.7410
+lab6
+xvid3a =
+    0.6707
+xvid3b =
+    0.6676
+xvid3c =
+    0.6677
+xvid4 =
+    0.6757
+lab6
+xvid3a =
+    0.6910
+xvid3b =
+    0.6597
+xvid3c =
+    0.6717
+xvid4 =
+    0.7410
+lab6
+xvid3a =
+    0.6910
+xvid3b =
+    0.6597
+xvid3c =
+    0.6717
+xvid4 =
+    0.6753
+lab6
+xvid3a =
+    0.6910
+xvid3b =
+    0.6597
+xvid3c =
+    0.6717
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Vectors must be the same length.
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sig', '/home/user/DM1/DMI/sig.m', 43)" style="font-weight:bold">sig</a> (<a href="matlab: opentoline('/home/user/DM1/DMI/sig.m',43,0)">line 43</a>)
+plot(t,y)
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab6', '/home/user/DM1/DMI/lab6.m', 18)" style="font-weight:bold">lab6</a> (<a href="matlab: opentoline('/home/user/DM1/DMI/lab6.m',18,0)">line 18</a>)
+xvid4=1/(N-1)*((sig(t(1)+sig(t(end)))/2)+sum(sig(t(2:end-1))))} 
+lab6
+xvid3a =
+    0.6910
+xvid3b =
+    0.6597
+xvid3c =
+    0.6717
+xvid4 =
+    0.6753
+lab6
+{Error: <a href="matlab: opentoline('/home/user/DM1/DMI/lab6.m',18,64)">File: lab6.m Line: 18 Column: 64
+</a>This statement is incomplete.} 
+lab6
+xvid3a =
+    0.6910
+xvid3b =
+    0.6597
+xvid3c =
+    0.6717
+xvid4 =
+    0.6753
