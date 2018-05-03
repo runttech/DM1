@@ -25,10 +25,10 @@ k = (2.5-(-2.5))/(6.5-8);
 delay = 7.25;
 y_saw = k*(t_saw-delay);
 %% Konstatnes signāls
-%y_const = 2.5; % nepareizi jo elementu skaitam (t un y) ir jābut vienādam
+y_const = 2.5; % nepareizi jo elementu skaitam (t un y) ir jābut vienādam
 %y_cosnt = [2.5 2.5 2.5 2.5 2.5 2.5 jāuzraksta 201 reizi]
 y_const = zeros(1,201)+2.5;% viena rinda 201 kolonna tik 
-y_const = ones(1,201)*2.5;
+%y_const = ones(1,201)*2.5;
 % šī pieeja arī nav korrekta jo ja izmanīsies elementu skaits vektoram
 % t_const, tad y_const neizmainīsies
 y_const = zeros(size(t_const))+2.5;
