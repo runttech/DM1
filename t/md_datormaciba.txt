@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gojs/1.8.18/go-debug.js"></script>
+<div id="myDiagramDiv"
+     style="width:500px; height:300px; background-color: #DAE4E4;"></div>
+ <script>
+ var $ = go.GraphObject.make;
+
+  myDiagram = $(go.Diagram, "myDiagramDiv",
+                {
+                  initialContentAlignment: go.Spot.Center,
+                  "undoManager.isEnabled": true
+                });
+ var $ = go.GraphObject.make;
+
+
+ myDiagram.nodeTemplate =
+   $(go.Node, "Auto",
+     $(go.Shape, "RoundedRectangle",
+
+       new go.Binding("fill", "color")),
+     $(go.TextBlock,
+       { margin: 3, stroke: "black", font: "16px sans-serif" },
+
+       new go.Binding("text", "key"))
+   );
+
+
+ myDiagram.model = new go.GraphLinksModel(
+ [
+   { key: "User", color: "green" },
+   { key: "Front End", color: "red" },
+   { key: "Back End", color: "pink" },
+   { key: "Data Base", color: "lightblue" }
+ ],
+ [
+   { from: "User", to: "Front End" },
+   { from: "Front End", to: "User" },
+   { from: "Front End", to: "Back End" },
+   { from: "Back End", to: "Front End" },
+   { from: "Back End", to: "Data Base" },
+   { from: "Data Base", to:"Back End"}
+ ]);
+
+</script>
+</head>
+
+
+</html>
